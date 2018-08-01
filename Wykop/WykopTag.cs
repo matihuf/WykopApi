@@ -12,7 +12,7 @@ namespace Wykop
         {
         }
 
-        public async Task<WykopTagResult> GetTags(string tag, TagMethods method)
+        public async Task<WykopTagResult> GetTagsAsync(string tag, TagMethods method)
         {
             string json = await GetResponseAsync(GetRequestUrl(tag, method.ToString()));
             return JsonConvert.DeserializeObject<WykopTagResult>(json);
