@@ -8,9 +8,9 @@ namespace Wykop
     public abstract class WykopBase
     {
         private HttpClient httpClient;
-        protected WykopAccess wykopAccess;
+        protected WykopApiAccess wykopAccess;
 
-        public WykopBase(HttpClient httpClient, WykopAccess wykopAccess)
+        public WykopBase(HttpClient httpClient, WykopApiAccess wykopAccess)
         {
             this.httpClient = httpClient;
             this.wykopAccess = wykopAccess;

@@ -8,7 +8,7 @@ namespace Wykop
 {
     public class WykopTag : WykopBase
     {
-        public WykopTag(HttpClient httpClient, WykopAccess wykopAccess) : base(httpClient, wykopAccess)
+        public WykopTag(HttpClient httpClient, WykopApiAccess wykopAccess) : base(httpClient, wykopAccess)
         {
         }
 

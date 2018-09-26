@@ -2,7 +2,7 @@
 
 namespace Wykop.Models
 {
-    public class WykopAccess
+    public class WykopApiAccess
     {
         [JsonProperty("ApiUrl")]
         public string ApiUrl { get; set; }
